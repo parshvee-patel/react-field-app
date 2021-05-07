@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 //Custom File Import
 import PageHeader from "./PageHeader";
-import Footer from "../components/Footer";
-
 class Contact extends Component {
   render() {
     return (
@@ -197,7 +195,6 @@ class Contact extends Component {
           {/* End Section */}
         </main>
         {/* End Main */}
-        <Footer />
       </div>
     );
   }

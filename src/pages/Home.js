@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-//Custom File Import
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-
 class Home extends Component {
   render() {
     return (
@@ -17,14 +13,12 @@ class Home extends Component {
         </div>
         {/* End Preload */}
 
-        <Header />
-
         {/* Main */}
         <main>
           {/* Home Banner */}
           <section
             className="effect-section theme-bg parallax"
-            style={{ backgroundImage: "url(assets/img/1600x900.jpg)" }}
+            style={{ backgroundImage: `url("assets/img/1600x900.jpg")` }}
           >
             <div className="mask black-bg opacity-7"></div>
             <div className="effect-1 opacity-8">
@@ -541,13 +535,13 @@ class Home extends Component {
                           <a href="#facebook">
                             <i className="fab fa-facebook-f"></i>
                           </a>
-                          <a href="#">
+                          <a href="#twitter">
                             <i className="fab fa-twitter"></i>
                           </a>
-                          <a href="#">
+                          <a href="#linkedin">
                             <i className="fab fa-linkedin-in"></i>
                           </a>
-                          <a href="#">
+                          <a href="#instagram">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
@@ -569,16 +563,16 @@ class Home extends Component {
                           4
                         </p>
                         <div className="social-icon si-30 white radius nav">
-                          <a href="#">
+                          <a href="#facebook">
                             <i className="fab fa-facebook-f"></i>
                           </a>
-                          <a href="#">
+                          <a href="#twitter">
                             <i className="fab fa-twitter"></i>
                           </a>
-                          <a href="#">
+                          <a href="#linkedin">
                             <i className="fab fa-linkedin-in"></i>
                           </a>
-                          <a href="#">
+                          <a href="#instagram">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </div>
@@ -628,7 +622,7 @@ class Home extends Component {
                       <div className="p-25px-t">
                         <a
                           className="m-btn m-btn-theme m-btn-radius w-100"
-                          href="#"
+                          href="#start"
                         >
                           Let's Start
                         </a>
@@ -656,7 +650,7 @@ class Home extends Component {
                       <div className="p-25px-t">
                         <a
                           className="m-btn m-btn-theme m-btn-radius w-100"
-                          href="#"
+                          href="#start"
                         >
                           Let's Start
                         </a>
@@ -684,7 +678,7 @@ class Home extends Component {
                       <div className="p-25px-t">
                         <a
                           className="m-btn m-btn-theme m-btn-radius w-100"
-                          href="#"
+                          href="#start"
                         >
                           Let's Start
                         </a>
@@ -712,7 +706,7 @@ class Home extends Component {
                       <div className="p-25px-t">
                         <a
                           className="m-btn m-btn-theme m-btn-radius w-100"
-                          href="#"
+                          href="#start"
                         >
                           Let's Start
                         </a>
@@ -908,7 +902,7 @@ class Home extends Component {
                 <div className="col-lg-4 m-15px-tb">
                   <div className="card blog-grid-1">
                     <div className="blog-img">
-                      <a href="#">
+                      <a href="#date">
                         <img src={"assets/img/900x550.jpg"} title="" alt="" />
                       </a>
                       <span className="date">
@@ -917,7 +911,7 @@ class Home extends Component {
                     </div>
                     <div className="card-body blog-info">
                       <h5>
-                        <a href="#">
+                        <a href="#body">
                           I like the body. I like to design everything to do
                           with the body.
                         </a>
@@ -927,7 +921,7 @@ class Home extends Component {
                         typesetting industry. Lorem Ipsum text...
                       </p>
                       <div className="btn-bar">
-                        <a className="m-link-theme" href="#">
+                        <a className="m-link-theme" href="#read">
                           Read more
                         </a>
                       </div>
@@ -937,7 +931,7 @@ class Home extends Component {
                 <div className="col-lg-4 m-15px-tb">
                   <div className="card blog-grid-1">
                     <div className="blog-img">
-                      <a href="#">
+                      <a href="#date">
                         <img src={"assets/img/900x550.jpg"} title="" alt="" />
                       </a>
                       <span className="date">
@@ -946,7 +940,7 @@ class Home extends Component {
                     </div>
                     <div className="card-body blog-info">
                       <h5>
-                        <a href="#">
+                        <a href="#body">
                           I like the body. I like to design everything to do
                           with the body.
                         </a>
@@ -956,7 +950,7 @@ class Home extends Component {
                         typesetting industry. Lorem Ipsum text...
                       </p>
                       <div className="btn-bar">
-                        <a className="m-link-theme" href="#">
+                        <a className="m-link-theme" href="#readmore">
                           Read more
                         </a>
                       </div>
@@ -966,7 +960,7 @@ class Home extends Component {
                 <div className="col-lg-4 m-15px-tb">
                   <div className="card blog-grid-1">
                     <div className="blog-img">
-                      <a href="#">
+                      <a href="#date">
                         <img src={"assets/img/900x550.jpg"} title="" alt="" />
                       </a>
                       <span className="date">
@@ -975,7 +969,7 @@ class Home extends Component {
                     </div>
                     <div className="card-body blog-info">
                       <h5>
-                        <a href="#">
+                        <a href="#body">
                           I like the body. I like to design everything to do
                           with the body.
                         </a>
@@ -985,7 +979,7 @@ class Home extends Component {
                         typesetting industry. Lorem Ipsum text...
                       </p>
                       <div className="btn-bar">
-                        <a className="m-link-theme" href="#">
+                        <a className="m-link-theme" href="#read">
                           Read more
                         </a>
                       </div>
@@ -1116,8 +1110,6 @@ class Home extends Component {
           {/* End Section */}
         </main>
         {/* End Main */}
-
-        <Footer />
       </div>
     );
   }

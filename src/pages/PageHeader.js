@@ -53,7 +53,7 @@ class PageHeader extends Component {
                         </li>
 
                         <li>
-                          <a href="services-simple.html">Services</a>
+                          <Link to="/services">Services</Link>
                         </li>
                         <li>
                           <a href="price.html">Pricing</a>

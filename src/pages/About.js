@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 //Custom File Import
-import Footer from "../components/Footer";
 import PageHeader from "./PageHeader";
 
 class About extends Component {
@@ -420,7 +419,6 @@ class About extends Component {
           {/* End Section */}
         </main>
         {/* End Main */}
-        <Footer />
       </div>
     );
   }
