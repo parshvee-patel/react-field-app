@@ -11,10 +11,10 @@ class Header extends Component {
             {/* Header Nav */}
             <div className="navbar navbar-main navbar-expand-lg">
               <div className="container">
-                <a className="navbar-brand" href="index.html">
+                <Link className="navbar-brand" to="/">
                   <h3 className="logo-dark">Field Hero</h3>
                   <h3 className="logo-light">Field Hero</h3>
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"

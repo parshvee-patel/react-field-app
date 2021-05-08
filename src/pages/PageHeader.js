@@ -5,7 +5,7 @@ class PageHeader extends Component {
   render() {
     return (
       <div>
-        {/* Preload */}
+        {/* Preload 
         <div id="loading">
           <div className="load-circle">
             <span className="one"></span>
@@ -16,9 +16,9 @@ class PageHeader extends Component {
           <div className="fixed-header-bar">
             <div className="navbar navbar-main navbar-expand-lg">
               <div className="container">
-                <a className="navbar-brand" href="index.html">
+                <Link className="navbar-brand" to="/">
                   <h1>Field Hero</h1>
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"

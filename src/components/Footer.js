@@ -16,16 +16,16 @@ class Footer extends Component {
                   <h5 className="white-color footer-title">Useful</h5>
                   <ul className="list-unstyled links-white footer-link-1">
                     <li>
-                      <a href="#">Apps Store</a>
+                      <a href="#store">Apps Store</a>
                     </li>
                     <li>
-                      <a href="#">Google Store</a>
+                      <a href="#store">Google Store</a>
                     </li>
                     <li>
-                      <a href="#">Latest News</a>
+                      <a href="#news">Latest News</a>
                     </li>
                     <li>
-                      <a href="#">Our Blog</a>
+                      <a href="#blog">Our Blog</a>
                     </li>
                   </ul>
                 </div>
@@ -33,16 +33,16 @@ class Footer extends Component {
                   <h5 className="white-color footer-title">Services</h5>
                   <ul className="list-unstyled links-white footer-link-1">
                     <li>
-                      <a href="#">Documentation</a>
+                      <a href="#document">Documentation</a>
                     </li>
                     <li>
-                      <a href="#">Changelog</a>
+                      <a href="#changelog">Changelog</a>
                     </li>
                     <li>
-                      <a href="#">Pagebuilder</a>
+                      <a href="#page">Pagebuilder</a>
                     </li>
                     <li>
-                      <a href="#">Web Services</a>
+                      <a href="#services">Web Services</a>
                     </li>
                   </ul>
                 </div>
@@ -76,13 +76,13 @@ class Footer extends Component {
                 <div className="col-md-6 text-center text-md-right m-5px-tb">
                   <ul className="nav justify-content-center justify-content-md-start links-white font-small footer-link-1">
                     <li>
-                      <a href="#">Privace &amp; Policy</a>
+                      <a href="#privacy">Privacy &amp; Policy</a>
                     </li>
                     <li>
-                      <a href="#">Faq's</a>
+                      <a href="#faq">FAQ's</a>
                     </li>
                     <li>
-                      <a href="#">Get a Quote</a>
+                      <a href="#quote">Get a Quote</a>
                     </li>
                   </ul>
                 </div>

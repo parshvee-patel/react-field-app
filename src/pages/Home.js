@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {/* Preload */}
+        {/* Preload 
         <div id="loading">
           <div className="load-circle">
             <span className="one"></span>
